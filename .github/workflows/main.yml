@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: asimd10/node-app-devops:1.0
+          tags: asimd10/node-app-devops:1.1
