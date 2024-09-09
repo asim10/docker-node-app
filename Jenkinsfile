@@ -3,7 +3,7 @@ pipeline {
     environment {
         REMOTE_USER = 'devops'
         REMOTE_HOST = '192.168.1.67'
-        DOCKER_IMAGE = 'asimd10/node-app-devops:1.3'
+        DOCKER_IMAGE = 'asimd10/node-app-devops:1.4'
         DOCKER_CREDENTIALS_ID = 'dockerhub_token'
     }
     stages {
